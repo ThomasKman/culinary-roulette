@@ -1,0 +1,46 @@
+{
+  "Beilagen": [
+    "Reis",
+    "Kartoffeln",
+    "Nudeln",
+    "Quinoa",
+    "Couscous",
+    "Bulgur",
+    "Brot"
+  ],
+  "Gemüse": [
+    "Brokkoli",
+    "Karotten",
+    "Zucchini",
+    "Paprika",
+    "Tomaten",
+    "Spinat",
+    "Aubergine",
+    "Blumenkohl",
+    "Brokkoli",
+    "Salat",
+    "Gurke",
+    "Kohl"
+  ],
+  "Proteine": [
+    "Hühnchen",
+    "Rindfleisch",
+    "Hack Rind",
+    "Hack gemischt",
+    "Hack Soja",
+    "Tofu",
+    "Tempeh",
+    "Seitan",
+    "Eier",
+    "Bohnen",
+    "Linsen"
+  ],
+  "Obst": [
+    "Apfel",
+    "Himbeeren",
+    "Heidelbeeren",
+    "Ananas",
+    "Nektarinen",
+    "Trauben"
+  ]
+}
