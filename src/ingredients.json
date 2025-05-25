@@ -6,21 +6,35 @@
     "Quinoa",
     "Couscous",
     "Bulgur",
-    "Brot"
+    "Gnocchi",
+    "Glasnudeln",
+    "Asianudeln",
+    "Wrap/Tortilla",
+    "Brot",
+    "Kartoffelpüree",
+    "Ofenkartoffeln"
   ],
   "Gemüse": [
     "Brokkoli",
     "Karotten",
+    "Erbsen",
+    "Kohlrabi",
+    "Rotkohl",
+    "Staudensellerie",
+    "Knollensellerie",
+    "Lotusknolle",
+    "Lauch",
     "Zucchini",
     "Paprika",
     "Tomaten",
-    "Spinat",
-    "Aubergine",
     "Blumenkohl",
     "Brokkoli",
     "Salat",
     "Gurke",
-    "Kohl"
+    "Mais",
+    "Grüne Bohnen",
+    "Zuckererbsen",
+    "SpitzKohl"
   ],
   "Proteine": [
     "Hühnchen",
@@ -29,10 +43,10 @@
     "Hack gemischt",
     "Hack Soja",
     "Tofu",
-    "Tempeh",
-    "Seitan",
+    "Kichererbsen",
     "Eier",
-    "Bohnen",
+    "Kidneybohnen",
+    "Weiße Bohnen",
     "Linsen"
   ],
   "Obst": [
@@ -40,7 +54,13 @@
     "Himbeeren",
     "Heidelbeeren",
     "Ananas",
-    "Nektarinen",
-    "Trauben"
+    "Kokosnuss",
+    "Zitrone",
+    "Kirschen",
+    "Limette",
+    "Mandarine/Orange",
+    "Nektarinen/Pfirsich",
+    "Trauben",
+    "Pflaumen"
   ]
 }

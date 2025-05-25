@@ -1,31 +1,108 @@
-# Getting Started with Create React App
+# Culinary Roulette
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun React application that helps you decide what to cook by randomly selecting ingredients or recipes.
 
-## Available Scripts
+## What the App Does
 
-In the project directory, you can run:
+Culinary Roulette has two main modes:
 
-### `npm start`
+1. **Ingredients Mode**: Randomly selects ingredients from different categories (sides, vegetables, proteins, fruits) to inspire your cooking.
+   - Roll all ingredients at once or re-roll specific categories
+   - Mix and match ingredients to create unique meal ideas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Recipe Mode**: Randomly selects a complete recipe from a predefined list.
+   - Get instant recipe suggestions when you're not sure what to cook
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Adding Ingredients and Recipes
+
+### Adding Ingredients or Categories
+
+To add new ingredients or categories, edit the `src/ingredients.json` file:
+
+- To add a new ingredient: Add the ingredient name to the appropriate category array
+- To add a new category: Add a new key-value pair where the key is the category name and the value is an array of ingredients
+
+Example:
+```json
+{
+  "Existing Category": [
+    "Existing Ingredient",
+    "New Ingredient"
+  ],
+  "New Category": [
+    "Ingredient 1",
+    "Ingredient 2"
+  ]
+}
+```
+
+### Adding Recipes
+
+To add new recipes, edit the `src/rezepte.json` file:
+
+- Add the recipe name to the "Rezepte" array
+
+Example:
+```json
+{
+  "Rezepte": [
+    "Existing Recipe",
+    "New Recipe"
+  ]
+}
+```
+
+## How to Build and Start the App
+
+### Installation
+
+Before running the app, install the dependencies:
+
+```
+npm install
+```
+
+### Running the App
+
+To start the development server:
+
+```
+npm start
+```
+
+This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Building for Production
+
+To create a production build:
+
+```
+npm run build
+```
+
+This builds the app for production to the `build` folder, optimized for best performance.
+
+## Additional Scripts and Information
+
+Below are more details about the available scripts and additional information:
+
+### More About `npm start`
+
+When running the app in development mode:
+- The page will reload when you make changes
+- You may also see any lint errors in the console
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### More About `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+When building the app for production:
+- It correctly bundles React in production mode and optimizes for the best performance
+- The build is minified and the filenames include hashes
+- Your app is ready to be deployed
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
